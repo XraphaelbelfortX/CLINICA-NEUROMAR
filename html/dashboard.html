@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+</head>
+<body>
+  <h1>Bem-vindo ao Dashboard!</h1>
+  <p>Usuário: <span id="usuario">...</span></p>
+  <button onclick="logout()">Sair</button>
+
+  <script type="module">
+    import { protegerDashboard, logout } from "../javascript/auth.js";
+  
+    // protege o dashboard se não estiver logado
+    protegerDashboard();
+  
+    // expõe logout para o botão
+    window.logout = logout;
+  </script>  
+</body>
+</html>
