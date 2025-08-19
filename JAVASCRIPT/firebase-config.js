@@ -5,13 +5,13 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-aut
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDPUpy_qv2s-t_O9cGQMxjxDzikBPRx4zI",
-  authDomain: "neuromar-738a9.firebaseapp.com",
-  projectId: "neuromar-738a9",
-  storageBucket: "neuromar-738a9.appspot.com",
-  messagingSenderId: "133139075194",
-  appId: "1:133139075194:web:fc162f466187f484d3abc3",
-  measurementId: "G-YF3P9QR8EV"
+  apiKey: "AIzaSyA8-jJ8g1rcqk_9k5DJJQRvG9wrtPnHioQ",
+  authDomain: "neuromar-44b0c.firebaseapp.com",
+  projectId: "neuromar-44b0c",
+  storageBucket: "neuromar-44b0c.firebasestorage.app",
+  messagingSenderId: "1037018695941",
+  appId: "1:1037018695941:web:6189f069203a924e5b0f6c",
+  measurementId: "G-EEZ3YQ4KMT"
 };
 
 
